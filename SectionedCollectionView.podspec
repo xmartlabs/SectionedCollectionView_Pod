@@ -29,7 +29,7 @@ A component to select items in a sectioned Collection View. This component help 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '3.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'SectionedCollectionView/Classes/**/*.swift'
   s.resources = 'SectionedCollectionView/Classes/**/*.xib'
