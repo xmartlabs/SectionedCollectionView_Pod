@@ -65,7 +65,7 @@ public class SectionedCollectionView: UIView {
     
     var collectionView: UICollectionView!
     var heightConstraint: NSLayoutConstraint?
-    public var delegate: SectionedCollectionViewDelegate?
+    public weak var delegate: SectionedCollectionViewDelegate?
     
     // MARK: - DataSource
     fileprivate var sections: [SectionOfCustomData] = []
